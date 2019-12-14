@@ -13,8 +13,8 @@ int main()
 	fwrite(ptr,strlen(ptr),1,fd);
 
 	//fseek(FILE* stream,long offset,int whence);
-	//offset : 偏移大小
-	//whence : 偏移位置
+	//offset :  偏移大小
+	//whence :  偏移位置
 	//	SEEK_SET 文件起始位置
 	//	SEEK_CUR 当前读写位置
 	//	SEEK_END 文件末尾位置	
