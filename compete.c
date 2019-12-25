@@ -1,4 +1,4 @@
-//可重入不可冲入demo
+//可重入不可重入demo
 #include<stdio.h>
 #include<unistd.h>
 #include<stdlib.h>
