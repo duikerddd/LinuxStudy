@@ -5,6 +5,7 @@
 
 int main()
 {
+
 	int status;
 	int pid=fork();
 	if(pid == 0)
@@ -43,4 +44,5 @@ int main()
 	        //}     
 	}
 	return 0;
+
 }
