@@ -5,6 +5,7 @@
 #include<errno.h>
 #include<fcntl.h>
 
+
 int main()
 {
 	printf("stdin:%d\n",stdin->_fileno);
