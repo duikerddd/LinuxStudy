@@ -10,6 +10,7 @@ int main()
   umask(0);
   char* file="text.tmp";
   int fd = open(file,O_RDWR | O_CREAT,0777);
+
   if(fd<0)
   {
     perror("open error");
@@ -26,5 +27,6 @@ int main()
 
   close(fd);
   return 0;
+
 }
 
