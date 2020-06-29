@@ -6,7 +6,6 @@ using namespace std;
 #define MAXRESOURCE 1000 /*最大资源数*/ 
 
 
-
 int AVAILABLE[MAXRESOURCE]; /*可用资源数组*/
 int MAX[MAXPROCESS][MAXRESOURCE]; /*最大需求矩阵*/
 int ALLOCATION[MAXPROCESS][MAXRESOURCE]; /*分配矩阵*/
